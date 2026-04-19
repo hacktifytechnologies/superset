@@ -1,0 +1,7 @@
+services:
+  web:
+    image: hacktifytechnologies/hacktify-superset:latest
+    container_name: hacktify-superset
+    ports:
+      - "8088:8088"
+    restart: unless-stopped
